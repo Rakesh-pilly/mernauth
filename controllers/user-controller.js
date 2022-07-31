@@ -4,7 +4,6 @@ const UserModel = require("../model/User-model");
 const JWT_SECRET_KEY = "MYKey";
 
 
-
 const signup = async (req, res, next) => {
   const { name, email, password } = req.body;
   let existingUser;
